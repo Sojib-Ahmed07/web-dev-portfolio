@@ -38,6 +38,9 @@
     font-size: 18px;
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 
 /* header */
 .header{
@@ -102,6 +105,8 @@ nav ul li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
     
 }
 
@@ -111,7 +116,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 
 .about-items{
@@ -121,4 +126,81 @@ main{
 
 .item-description{
     font-weight: 600;
+}
+/* skills */
+
+.skills{
+    margin-top: 120px;
+}
+
+.sec2{
+    padding: 0 116px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+
+/* resume section styles */
+
+.resume{
+    margin-top: 130px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-subtitle{
+    color: #757575;
+}
+.resume hr{
+    margin-top: 30px;
+}
+.cv-download-btn{
+    margin-top: 50px;
+}
+.sec-t-resume{
+    margin-bottom: 110px;
+}
+
+/* footer styles */
+
+.footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 20px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 20px;
+    
 }
