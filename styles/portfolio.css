@@ -75,6 +75,17 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
 }
+.contact-btn{
+    background-color: transparent;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+.header-btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
 
 /* banner style */
 .banner{
